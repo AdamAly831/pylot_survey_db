@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/static/css/styles.css" type="text/css">
+  </head>
+  <body>
+    Surveys on port 5000!
+
+    <form action='/surveys/process' method='POST'>
+    	Enter Name: <br>
+    	<input type="text" name="name"><br>
+    	Enter Favorite Language: <br>
+    	<input type="text" name="lang"><br>
+    	Enter Comment: <br>
+    	<textarea name='comment'>
+    		
+    	</textarea><br>
+    	<input type="submit" value='Enter Survey!'>
+    </form>
+  </body>
+</html>
